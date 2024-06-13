@@ -9,7 +9,7 @@ public class DataBaseConnection {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/usuarios";
         String usuario = "root";
-        String contrasena = "escaleras1";
+        String contrasena = "password";
         
         Connection c = DriverManager.getConnection(url, usuario, contrasena);
         return c;
